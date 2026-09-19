@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>管理者画面</title>
+    <meta name="robots" content="noindex, nofollow">
+</head>
+<body>
+    <h1>管理者画面</h1>
+    <div>
+        <label for="numInput">数字を入力してください：</label>
+        <input type="number" id="numInput" placeholder="数値を入力">    
+    </div>
+    <script>
+        const numInput = document.getElementById('numInput');
+               numInput.addEventListener('input', function() {
+            localStorage.setItem('sharedNumber', numInput.value);
+        });
+    ;</script>
+</body>
+</html>

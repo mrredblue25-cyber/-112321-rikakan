@@ -1,0 +1,21 @@
+#numberDisplay {
+    font-size: 380px; /* 好みに合わせて数字（48）を変更してください */
+   display: flex;
+   justify-content: center; /* 左右の中央揃え */
+   align-items: center;     /* 上下の中央揃え */
+   height: 100%;            /* 画面全体の高さに合わせる */
+   text-align: center;
+   font-weight: bold; /* 数字を太字にしてさらに目立たせたい場合（不要なら消してOK） */
+}
+
+#numberLabel {
+    font-size: 48px;
+    font-weight: bold; 
+}
+#centerd {
+       display: flex;
+            justify-content: center; /* 左右の中央揃え */
+            align-items: center;     /* 上下の中央揃え */
+            height: 100%;            /* 画面全体の高さに合わせる */
+            text-align: center; 
+}
